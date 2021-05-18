@@ -1,0 +1,78 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.pantallas {
+    display: flex;
+    flex-flow: row wrap;
+    border: 2px solid black;
+    width: 400px;
+    height: 600px;
+    margin-top: 50px;
+    border-radius: 10px 10px 50px 50px;
+    box-shadow: 2px 5px grey;
+    background-color: yellow;
+    justify-content: center;
+}
+.pantalla-grande {
+    display: flex;
+    margin-top: 15px;
+    width: 370px;
+    height: 270px;
+    border-radius: 10px;
+    background-color: black;
+    justify-content: center;
+}
+.pantalla-pequeña {
+    margin-top: 25px;
+    width: 250px;
+    height: 179px;
+    background-color: grey;
+}
+
+.seccion-botones {
+    display: flex;
+    flex-flow: row wrap;
+}
+.cuadro-flechas {
+    height: 75px;
+    width: 100px;
+    border: 2px solid black;
+
+}
+.cuadro-botones {
+    height: 75px;
+    width: 100px;
+    border: 2px solid black;
+}
+.boton-izq {
+    position: relative;
+    top: 30px;
+    right: 30px;
+    width: 20px;
+    left: 30px;
+    height: 20px;
+    border: 1px solid black;
+
+}
+.boton-arr {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.boton-der {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.boton-aba {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+}
+.menu {
+    border: 2px solid black;
+    width: 30px;
+    height: 30px;
+}
